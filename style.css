@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    width: auto;
+    height: 100vh;
+    background-color: #0f172a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    height: 400px;
+    background-color: #1e293b;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    border-radius: 16px;
+}
+.text-sale h1 {
+    color: #f1f5f9;
+    font-size: 30px;
+    font-weight: bold;
+}
+p {
+    color: #94a3b8;
+    font-size: 20px;
+}
+.moneys {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.deposit-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.sakes {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.sale {
+    margin-top: 10px;
+    font-size: 32px;
+    color: #22c52e;
+    font-weight: bold;
+    text-align: center;
+}
+input {
+    border-radius: 5px;
+    border: 2px solid #334155;
+    background: #0f172a;
+    color: white;
+    height: 30px;
+}
+.input-deposit {
+    width: 150px;
+    outline: none;
+    padding-left: 7px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.sake {
+    width: 150px;
+    outline: none;
+    padding-left: 7px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.text-sale p {
+    margin-top: 10px;
+}
+button {
+    font-size: 14px;
+    font-weight: bold;
+    width: 90px;
+    padding: 6px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s linear ;
+}
+.deposit-button {
+    background: #22c52e;
+    color: white;
+}
+.deposit-button:hover {
+    background: #0e8339;
+}
+.remove-button {
+    background: #e93434;
+    color: white;
+}
+.remove-button:hover {
+    background: #d81f1f;
+}
